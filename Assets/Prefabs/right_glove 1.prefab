@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2862344459552280389}
   - component: {fileID: 4151288638808242522}
   - component: {fileID: 1484299449078308714}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: CircleSparks
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4848,7 +4848,7 @@ GameObject:
   - component: {fileID: 7743139945332704353}
   - component: {fileID: 7713446688911057623}
   - component: {fileID: 253683719375749461}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Distortion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9734,7 +9734,7 @@ GameObject:
   - component: {fileID: 5172798574395268351}
   - component: {fileID: 5474545647109888684}
   - component: {fileID: 987166865819577591}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Smoke
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14571,7 +14571,7 @@ GameObject:
   - component: {fileID: 4366288294640791771}
   - component: {fileID: 6734393030524901757}
   - component: {fileID: 6585244865168963132}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Portal blue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19458,7 +19458,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6016865780619773297}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: CounterPosition
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19493,12 +19493,11 @@ GameObject:
   - component: {fileID: 6744723688134311948}
   - component: {fileID: 7872219254634220868}
   - component: {fileID: 15873701202960481}
-  - component: {fileID: 4637929461283019118}
   - component: {fileID: -926899719282907499}
   - component: {fileID: 8604089728136580317}
   - component: {fileID: 6780870029759197938}
   - component: {fileID: -1558641602744828699}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: right_glove 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19621,25 +19620,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.0028341496, y: 0.0038529062, z: 0.004796672}
   m_Center: {x: 0.000102019156, y: 0.00051558256, z: 0.0024028167}
---- !u!114 &4637929461283019118
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8638878727504352713}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7fc7da55f6bd15842a1600c18e3b71e4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _portal: {fileID: 0}
-  CounterPortal: {fileID: 2625477515155408105}
-  CounterReleasePosition: {fileID: 6016865780619773297}
-  _launchSfx: {fileID: 8300000, guid: f650783806738b148a873161f7c6bcd8, type: 3}
-  ActivateAction: {fileID: 83097790271614945, guid: c348712bda248c246b8c49b3db54643f, type: 3}
-  maxRayDistance: 300
-  launchSpeed: 20
 --- !u!82 &-926899719282907499
 AudioSource:
   m_ObjectHideFlags: 0
@@ -19757,7 +19737,7 @@ LineRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 6252b551806ea8940a1613d21e68a460, type: 2}
+  - {fileID: 2100000, guid: ddfcb9cb2ec761a4f90e3763b68c380c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -19847,7 +19827,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8638878727504352713}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e61bfc3ba2e61ab4085a14908e2f187e, type: 3}
   m_Name: 
@@ -19856,7 +19836,6 @@ MonoBehaviour:
   CounterPortal: {fileID: 2625477515155408105}
   CounterReleasePosition: {fileID: 6016865780619773297}
   _launchSfx: {fileID: 8300000, guid: f650783806738b148a873161f7c6bcd8, type: 3}
-  ActivateAction: {fileID: 83097790271614945, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   maxRayDistance: 300
   launchSpeed: 20
 --- !u!114 &-1558641602744828699

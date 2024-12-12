@@ -1,6 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor.SearchService;
+
 using UnityEngine;
 
 public class Bomb : MonoBehaviour
@@ -25,6 +25,7 @@ public class Bomb : MonoBehaviour
     }
     private void Update()
     {
+        timer += Time.deltaTime;
       //Debug.Log("Velocity of:"+gameObject.name+"is:"+velocity);
       if (timer > 4f) 
         { 

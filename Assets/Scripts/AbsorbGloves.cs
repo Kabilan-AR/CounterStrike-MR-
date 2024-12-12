@@ -41,11 +41,13 @@ public class AbsorbGloves : MonoBehaviour
     {
         if (OVRInput.GetDown(ActivateAction, OVRInput.Controller.LTouch))
         {
+            Debug.Log("Counter gloves pressed action");
             ActivateSpatialMove();
         }
 
         if (OVRInput.GetUp(ActivateAction, OVRInput.Controller.LTouch))
         {
+            Debug.Log("Counter gloves released action");
             DeactivateSpatialMove();
         }
         if (isAbsorbing)
